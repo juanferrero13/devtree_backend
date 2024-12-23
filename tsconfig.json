@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist", // Salida de archivos compilados
+        "rootDir": "./src", // Directorio raíz del código fuente
+        "lib": ["ESNext"], // Usa la librería más moderna
+        "target": "ESNext", // Compila al último estándar de JS
+        "moduleResolution": "NodeNext", // Resolución moderna de módulos
+        "module": "NodeNext", // Usa ESM como módulo principal
+        "strict": false, // Recomendado para evitar errores
+        "sourceMap": true, // Genera mapas de código fuente
+        "esModuleInterop": true, // Interoperabilidad con CJS/ESM
+        "declaration": true, // Genera archivos `.d.ts`
+        "allowSyntheticDefaultImports": true // Facilita imports por defecto
+    },
+    "include": ["src/**/*.ts"], // Incluye todos los archivos `.ts`
+    "exclude": ["node_modules"] // Excluye dependencias
+}
